@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return `
           <div class="header__main">
           <div class="logo-container">
-            <img src="/assets/TECHN.png" alt="TECHN" />
+            <img src="./assets/TECHN.png" alt="TECHN" />
             <svg
               width="29"
               height="28"
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </clipPath>
               </defs>
             </svg>
-            <img src="/assets/PARK.png" alt="PARK" />
+            <img src="./assets/PARK.png" alt="PARK" />
           </div>
           <div class="menu-icon" onclick="showMenu()">
             <div></div>
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="menu-container">
           <div class="header-menu">
             <div class="logo-container">
-              <img src="/assets/TECHN-white.png" alt="TECHN" />
+              <img src="./assets/TECHN-white.png" alt="TECHN" />
               <svg
                 width="29"
                 height="28"
@@ -82,26 +82,26 @@ document.addEventListener("DOMContentLoaded", function () {
                   </clipPath>
                 </defs>
               </svg>
-              <img src="/assets/PARK-white.png" alt="PARK" />
+              <img src="./assets/PARK-white.png" alt="PARK" />
             </div>
-            <img src="/assets/close-icon.png" alt="close-icon" class="close-icon" onclick="closeMenu()"/>
+            <img src="./assets/close-icon.png" alt="close-icon" class="close-icon" onclick="closeMenu()"/>
           </div>
           <div id="navigationContainer" class="navigation-container">
             <div class="navigation-item">
               <span class="navigation-text">Go to product page</span>
-              <img class="icon-arrow" src="/assets/arrow.png" alt="arrow" />
+              <img class="icon-arrow" src="./assets/arrow.png" alt="arrow" />
             </div>
             <div class="navigation-item">
               <span class="navigation-text">Track your order</span>
-              <img class="icon-arrow" src="/assets/arrow.png" alt="arrow" />
+              <img class="icon-arrow" src="./assets/arrow.png" alt="arrow" />
             </div>
             <div class="navigation-item">
               <span class="navigation-text">Contact us</span>
-              <img class="icon-arrow" src="/assets/arrow.png" alt="arrow" />
+              <img class="icon-arrow" src="./assets/arrow.png" alt="arrow" />
             </div>
             <div class="navigation-item">
               <span class="navigation-text">FAQ</span>
-              <img class="icon-arrow" src="/assets/arrow.png" alt="arrow" />
+              <img class="icon-arrow" src="./assets/arrow.png" alt="arrow" />
             </div>
             <div class="menu-line"><div/>
           </div>
